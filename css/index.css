@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+:root {
+    - -main-color: black;
+    - -secondary-color: white;
+    font-familly: 'Ubuntu';
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+
+}
+ h1, ul, p {
+       margin: 0;
+       padding: 0;
+
+ }
+header nav h1 {
+
+    font-family: 'Dancing Script', ;
+    front-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+header nav .top-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none
+}
+ 
+
+
+ header nav .top-menu a {
+     text-decoration: none;
+     text-transform: uppercase;
+
+
+ }
+ header nav .top-menu a:hover {
+      border: 1px solid var(- -main-color);
+
+
+ }
+ @media (min-width: 550px) {
+     header nav {
+         display: flex;
+         
+     }
+     header nav .top-menu{
+        flex: 1;
+
+     }
+
+ }
+ header div {
+       background-image: url(../img/egypt.jpg);
+       background-position: center;
+       backround-size: cover;
+   min-height: 500px;
+ }
+ header .banner {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+ }
+ header .banner .title{
+      font-size: 3rem;
+      font-family: 'Dancing Script';
+      text-transform: uppercase;
+ }
